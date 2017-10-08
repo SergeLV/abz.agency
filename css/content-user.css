@@ -1,0 +1,294 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova-Regular.ttf") format("truetype"), url("../fonts/ProximaNova-Regular.svg#proxima_nova_altregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light.ttf") format("truetype"), url("../fonts/ProximaNova-Light.svg#proxima_nova_altregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 75, D:/ProjectJS/abz.agency/src/scss/share.scss */
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* line 79, D:/ProjectJS/abz.agency/src/scss/share.scss */
+.item {
+  -webkit-box-flex: 1 200px;
+  -moz-box-flex: 1 200px;
+  -webkit-flex: 1 200px;
+  -ms-flex: 1 200px;
+  flex: 1 200px;
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -ms-flex-order: 2;
+  -webkit-order: 2;
+  order: 2;
+}
+
+/* line 94, D:/ProjectJS/abz.agency/src/scss/share.scss */
+.separator-image, .content-right-separator, .content-right-separator2 {
+  width: 213px;
+  height: 1px;
+}
+
+/* line 6, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-font, .content-user-program-font-header-name, .content-user-program-font-see-all, .content-user-program-font-name, .content-user-program-font-description, .content-menu-program-font-description, .content-user-program-font-occupate, .content-user-program-font-add-friend, .advert-p, .advert > p, .advert-left > p, .advert > span, .advert-left > span {
+  font-family: "Proxima Nova", Georgia, sans-serif;
+}
+
+/* line 10, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-font-size-12, .content-user-program-font-add-friend {
+  font-size: 12px;
+}
+
+/* line 14, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-font-size-14, .content-user-program-font-header-name, .content-user-program-font-see-all, .content-user-program-font-description, .content-menu-program-font-description, .content-user-program-font-occupate, .advert-p, .advert > p, .advert-left > p {
+  font-size: 14px;
+}
+
+/* line 18, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-font-size-16, .content-user-program-font-name {
+  font-size: 16px;
+}
+
+/* line 22, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-font-color-header, .content-user-program-font-see-all, .content-user-program-font-name, .content-user-program-font-add-friend {
+  color: #1c2534;
+}
+
+/* line 26, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-font-color-description, .content-user-program-font-header-name, .content-user-program-font-description, .content-menu-program-font-description, .content-user-program-font-occupate, .advert-p, .advert > p, .advert-left > p {
+  color: #7c8695;
+}
+
+/* line 48, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-font-description, .content-menu-program-font-description {
+  line-height: 1.2;
+}
+
+/* line 55, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-menu-program-font-description {
+  line-height: 1.4;
+}
+
+/* line 60, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-font-occupate {
+  margin-top: 6px;
+}
+
+/* line 73, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-friend {
+  padding: 11px 15px 0 15px;
+}
+
+/* line 77, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program {
+  padding: 6px 15px 0 16px;
+}
+
+/* line 81, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-companyproduct {
+  padding: 6px 0 0 0;
+  margin-left: 16px;
+}
+
+/* line 88, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-friend-header, .content-user-program-friend-header-left {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 8px;
+  width: 215px;
+  margin-bottom: -2px;
+}
+
+/* line 98, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-friend-header-left {
+  width: 211px;
+}
+
+/* line 103, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-friend, .content-menu-company, .content-user-program-product {
+  margin-top: 16px;
+  width: 100%;
+}
+
+/* line 109, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-menu-company {
+  margin-top: 17px;
+  height: 83px;
+}
+
+/* line 119, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-friend-details, .content-user-program-program-details, .content-menu-company-details {
+  width: 213px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 7px;
+}
+
+/* line 128, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-program-details {
+  margin-top: 5px;
+  margin-left: -1px;
+  padding-bottom: 2px;
+}
+
+/* line 135, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-menu-company-details {
+  margin-top: 0;
+}
+
+/* line 140, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-friend-details-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+  margin-left: 1px;
+  overflow: hidden;
+}
+
+/* line 147, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-user-program-friend-details-text, .content-menu-company-details-text {
+  width: 119px;
+  margin-top: -1px;
+  margin-right: 4px;
+}
+
+/* line 153, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-menu-company-details-text {
+  margin-right: 3px;
+}
+
+/* line 158, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-right-separator {
+  margin: 24px 0 0 15px;
+}
+
+/* line 162, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.content-right-separator2 {
+  margin: 20px 0 0 15px;
+}
+
+/* line 166, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.advert, .advert-left {
+  margin-left: 15px;
+}
+
+/* line 170, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.advert-child, .advert > p, .advert-left > p, .advert > img, .advert-left > img, .advert > span, .advert-left > span {
+  margin: 14px 0 0 2px;
+}
+
+/* line 185, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.advert > img, .advert-left > img {
+  width: 210px;
+  height: 300px;
+  border: 1px solid #dddddd;
+  margin-left: 1px;
+  margin-top: 16px;
+}
+
+/* line 193, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.advert > span, .advert-left > span {
+  font-size: 11px;
+  color: #d3d3d3;
+}
+
+/* line 205, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.advert-child-left, .advert-left > p, .advert-left > img {
+  margin: 19px 0 0 3px;
+}
+
+/* line 214, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.advert-left > img {
+  width: 210px;
+  height: 300px;
+  border: 1px solid #dddddd;
+  margin-left: 1px;
+  margin-top: 16px;
+}
+
+/* line 222, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.advert-left > span {
+  font-size: 11px;
+  color: #d3d3d3;
+  margin-left: 1px;
+  margin-top: 16px;
+}
+
+/* line 233, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+/* line 247, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.modal-content {
+  background-color: #fefefe;
+  margin: 25% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 2px solid red;
+  width: 50%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+/* line 256, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* line 263, D:/ProjectJS/abz.agency/src/scss/content-user.scss */
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=../../css/content-user.map */

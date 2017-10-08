@@ -1,0 +1,123 @@
+@import "share";
+$color-btn-login: #87b448;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.def-font {
+    font-family: $font-page-support;
+}
+
+.def-font-light {
+    font-family: $font-proximalight;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.color-white {
+    color: white;
+}
+
+body {
+    width: 100%;
+    word-wrap: break-word;
+    //background-color: white;
+    background:
+        url(../images/support/header-top-background.jpg) 0 0 repeat-x,
+        url(../images/support/center-pattern-background.jpg) 0 0 repeat-x;
+    background-position: left top, left 510px;
+    @include flexbox();
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main {
+    width: 1440px;
+    height: 2000px;
+    background-color: white;
+    background:
+        url(../images/support/header-top.jpg) 0 0 no-repeat,
+        url(../images/support/center-pattern.jpg) 0 0 no-repeat;
+    background-position: left top,  left 510px;
+
+}
+
+.logo-loginbtn {
+    @include flexbox();
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 80px;
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+.logo-loginbtn > button{
+    @include width-heigth(109px, 30px);
+    @extend .def-font;
+    @extend .font-size-16;
+    @extend .color-white;
+    background-color: $color-btn-login;
+    border-radius: 4px;
+    border: 0 solid;
+    margin-bottom: 5px;
+}
+
+.title {
+    @include flexbox();
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+    @extend .def-font-light;
+    font-size: 48px;
+    @extend .color-white;
+    text-align: center;
+}
+
+.title > p {
+    margin-bottom: 6px;
+}
+
+.title > span {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.form-space-div {
+    width: 100%;
+    @include flexbox();
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.form-block {
+    @include width-heigth(738px, 743px);
+    border-radius: 4px;
+    border: 1px solid #e0e2e6;
+    background-color: white;
+}
+
+.form-space-div > button {
+    @include width-heigth(740px, 53px);
+    @extend .def-font;
+    @extend .font-size-14;
+    @extend .color-white;
+    background-color: $color-btn-login;
+    border-radius: 4px;
+    border: 0 solid;
+    margin-top: 20px;
+}

@@ -1,0 +1,36 @@
+@import "share";
+
+.content100 {
+  min-width: $minwidth;
+  max-width: $maxwidth;
+  @include width-heigth(970px, 100%);
+  background-color: grey;
+  margin: 0 auto;
+  @include flexbox();
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.side-left {
+  //background-color: #73993d;
+  background-color: white;
+  width: 226px;
+}
+
+.side-right {
+  //background-color: yellow;
+  background-color: white;
+  width: 242px;
+
+}
+
+.side-content {
+  background-color: white;
+}
+
+@media all and (min-width: $minwidth) {
+  .side-content    { flex: 3 0px; }
+  .side-left { order: 1; }
+  .side-content { order: 2; }
+  .side-right { order: 3; }
+}
