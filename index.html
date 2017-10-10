@@ -14,8 +14,11 @@
     <script src='lib/react.js'></script>
     <script src='lib/react-dom.js'></script>
     <script src='lib/babel-browser.min.js' ></script>
+    <script src='https://code.jquery.com/jquery-2.2.4.js' ></script>
 </head>
 <body>
+
+<button id="foreach">TEST</button>
 
 
 <div class="header-100persentwidth">
@@ -95,7 +98,7 @@
             <div class="content-space-space">
                 <div class="content-space-menu" id="id-content-space-menu">
                     LOADING...
-                    <script src='src/js/app.jsx' type='text/babel'></script>
+                    <!--<script src='src/js/app.jsx' type='text/babel'></script>-->
                     <!--MENU SERVICE-->
                 </div>
             </div>
@@ -119,6 +122,44 @@
 
     </div>
 
+<script type="text/javascript">
+    var elements = document.body.getElementsByTagName('div');
+
+        var timerId = setInterval(function (i) {
+
+            [].forEach.call(elements, function( el ) {
+               // el.innerHTML = "foo";
+                    let promise = new Promise((resolve, reject) => {
+
+                        setTimeout(() => {
+                        // переведёт промис в состояние fulfilled с результатом "result"
+                        resolve();
+                    }, 5000);
+
+                });
+
+        // promise.then навешивает обработчики на успешный результат или ошибку
+                    promise
+                        .then(
+                            result => {
+                        // первая функция-обработчик - запустится при вызове resolve
+                        console.log(el);
+
+                },
+                    error => {
+                        // вторая функция - запустится при вызове reject
+                        alert("Rejected: " + error); // error - аргумент reject
+                    }
+                );
+
+            });
+
+        }, 5000);
+
+//    for (var i = 0; i < elements.length; i++) {
+//
+//    }
+</script>
 
 </body>
 </html>
